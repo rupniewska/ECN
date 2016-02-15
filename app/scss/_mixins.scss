@@ -1,0 +1,20 @@
+@mixin box-shadow($hOoffset, $vOffset, $blurRadius, $blurSpread, $color){
+  -moz-box-shadow:    $hOoffset $vOffset $blurRadius $blurSpread $color;
+  -webkit-box-shadow: $hOoffset $vOffset $blurRadius $blurSpread $color;
+  box-shadow:         $hOoffset $vOffset $blurRadius $blurSpread $color;
+}
+
+@mixin triangle-top($width, $height, $color){
+  content:"\A";
+  width: 0;
+  height: 0;
+  border-left: $width solid transparent;
+  border-right: $width solid transparent;
+  border-bottom: $height solid $color;
+}
+
+@mixin display-flex-center(){
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+}

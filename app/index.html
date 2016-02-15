@@ -1,0 +1,366 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="page-wrapper">
+    <div class="backdrop">
+        <div class="search " id="searchOverlay">
+            <input type="text">
+            <i class="fa fa-search searchIco"></i>
+        </div>
+    </div>
+    <header>
+        <div class="top-wrapper clearfix">
+            <div class="logo clearfix"><a href="/"><img src="images/logo.png" alt=""></a></div>
+
+            <div class="navigation">
+                <div class="top">
+                    <ul>
+                        <li><a class="btn btn-default">Kup bilet</a></li>
+                        <li><a href="">dla nauczycieli</a></li>
+                        <li><a href="">zapiski glutka</a></li>
+                        <li><a href="">pl</a></li>
+                        <li><a href="">en</a></li>
+                        <li><a class="startSearch"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <ul>
+                        <li><a href="templates/zaplanuj-wizyte.html" class="active">zaplnanuj wizytę</a></li>
+                        <li><a href="">odkrywaj</a></li>
+                        <li><a href="">aktualności</a></li>
+                        <li><a href="">oferta</a></li>
+                        <li><a href="templates/ludzie-centrum.html">ecn to my</a></li>
+                        <li><a href="templates/kontakt.html">kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-top-wrapper">
+                <div class="logo clearfix"><a href="/">logo ECN</a></div>
+                <a class="btn btn-default">Kup bilet</a>
+                <a class="startSearch"><i class="fa fa-search"></i></a>
+                <div id="menu-dropup">
+                    <button class="btn btn-primary"><i class="fa fa-align-right"></i></button>
+                    <ul id="dropdown-menu">
+                        <li>
+                            <div class="radio"><label class="text-uppercase"><input type="radio" name="lang" id="jPolski" value="option1" checked>jezyk polski</label></div>
+                            <div class="radio"><label class="text-uppercase"><input type="radio" name="lang" id="jAngielski" value="option2">język angielski</label></div>
+                        </li>
+                        <li><a href="" class="text-uppercase">Dla nauczycieli</a></li>
+                        <li><a href="" class="text-uppercase">Zapiski glutka</a></li>
+                        <li><a href="" class="text-uppercase">Odwiedź nas</a></li>
+                        <li><a href="">Godziny otwarcia</a></li>
+                        <li><a href="">Czas zwiedzania</a></li>
+                        <li><a href="">Parking</a></li>
+                        <li><a href="">Sklepik</a></li>
+                        <li><a href="" class="text-uppercase">Aktualności</a></li>
+                    </ul>
+                </div>
+        </div>
+    </header>
+
+    <div id="carousel" class="carousel slide cover-image" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/coverImage.png" alt="">
+                <div class="carousel-caption">
+                    <h1>Energetyczne Centrum Nauki<br /> juz otwarte! Zapraszamy</h1>
+                    <h2>Praesent enim orci, commodo in rutrum at, auctor ac metus. Sed vehicula semper neque, eget euismod sapien congue id.</h2>
+                    <button class="btn btn-primary">Zobacz <span><i class="fa fa-long-arrow-right"></i></span></button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <!--<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">-->
+            <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+            <!--<span class="sr-only">Previous</span>-->
+        <!--</a>-->
+        <!--<a class="right carousel-control" href="#carousel" role="button" data-slide="next">-->
+            <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+            <!--<span class="sr-only">Next</span>-->
+        <!--</a>-->
+    </div>
+
+    <div class="content col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+            <div class="grid">
+                <div class="box box-image col-xs-6 col-md-4">
+                    <div class="wrapper">
+                        <img src="images/box1.png" alt="">
+                        <div class="desc">
+                            <p>Cras ante risus, rhoncus sed suscipit at, elementum nec ante</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-text col-xs-6 col-md-4">
+                    <div class="wrapper">
+                        <div class="desc">
+                            <h2>Cras ante risus, rhoncus</h2>
+                            <span>Cras ante risus, rhoncus sed suscipit at, elementum nec anteCras ante risus, rhoncus sed suscipit at, elementum nec ante</span><br>
+                            <span>Cras ante risus, rhoncus sed suscipit at, elementum nec </span>
+                        </div>
+                        <div class="footer">
+                            <button class="btn btn-default">Więcej <span><i class="fa fa-long-arrow-right"></i></span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-image col-xs-6 col-md-4">
+                    <div class="wrapper">
+                        <img src="images/box2.png" alt="">
+                        <div class="desc">
+                            <p>Cras ante risus, rhoncus sed suscipit at, elementum nec ante</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-image col-xs-6 col-md-4">
+                    <div class="wrapper">
+                        <img src="images/box3.png" alt="">
+                        <div class="desc">
+                            <p>Cras ante risus, rhoncus sed suscipit at, elementum nec ante</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-image col-xs-6 col-md-4">
+                    <div class="wrapper">
+                        <img src="images/box4.png" alt="">
+                        <div class="desc">
+                            <p>Cras ante risus, rhoncus sed suscipit at, elementum nec ante</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-image col-xs-6 col-md-4">
+                    <div class="wrapper">
+                        <img src="images/box5.png" alt="">
+                        <div class="desc">
+                            <p>Cras ante risus, rhoncus sed suscipit at, elementum nec ante</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-image col-xs-6 col-md-4">
+                    <div class="wrapper">
+                        <img src="images/box6.png" alt="">
+                        <div class="desc">
+                            <p>Cras ante risus, rhoncus sed suscipit at, elementum nec ante</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-image col-xs-6 col-md-4">
+                    <div class="wrapper">
+                        <img src="images/box7.png" alt="">
+                        <div class="desc">
+                            <p>Cras ante risus, rhoncus sed suscipit at, elementum nec ante</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box box-image col-xs-6 col-md-4">
+                    <div class="wrapper">
+                        <img src="images/box8.png" alt="">
+                        <div class="desc">
+                            <p>Cras ante risus, rhoncus sed suscipit at, elementum nec ante</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box box-transparent col-xs-6 col-md-4">
+                    <div class="inner">
+                        <h4>Kontakt</h4>
+                            <p><b>Energetyczne Centrum Nauki</b></p>
+                            <p>Kielecki Park Technologiczny</p>
+
+                            <p>ul. Olszewskiego 5</p>
+                            <p>(budynek SKYE INC) 2 piętro</p>
+                            <p>25-663 Kielce</p>
+
+                        <button class="btn btn-default">Więcej <span><i class="fa fa-long-arrow-right"></i></span></button>
+                    </div>
+                </div>
+
+
+                <div class="box box-transparent col-xs-6 col-md-4">
+                    <div class="inner">
+                        <h4>Nasza misja</h4>
+                        <p>Pellentesque rutrum ut ipsum eu auctor. Mauris ac pellentesque mauris. Integer fringilla, lacus eget interdum sagittis</p>
+                        <p>Pellentesque rutrum ut ipsum eu auctor. Mauris ac pellentesque mauris. Integer fringilla, lacus eget interdum sagittis, diam</p>
+
+                        <button class="btn btn-default">Więcej <span><i class="fa fa-long-arrow-right"></i></span></button>
+                    </div>
+                </div>
+                <div class="box box-transparent col-xs-6 col-md-4">
+                    <div class="inner">
+                        <h4>Godziny otwarcia</h4>
+                        <ul>
+                            <li><span class="col-xs-7">poniedziałek</span>
+                                <span class="col-xs-5">nieczynne</span></li>
+                            <li><span class="col-xs-7">Wtorek - piątek</span>
+                                <span class="col-xs-5">8:00 - 16:00</span></li>
+                            <li><span class="col-xs-7">sobota</span>
+                                <span class="col-xs-5">10:00 - 18:00</span></li>
+                            <li><span class="col-xs-7">niedziela</span>
+                                <span class="col-xs-5">12:00 - 18:00</span></li>
+                        </ul>
+
+                        <button class="btn btn-default">Godziny zwiedzania <span><i class="fa fa-clock-o"></i></span></button>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="clearfix"></div>
+    <footer>
+        <div class="top clearfix">
+            <ul class="visible-lg-block visible-md-block">
+                <li>
+                    <!--<input type="text" class="form-control" placeholder="Zapisz się do Newslettera">-->
+                    <div class="form-group has-feedback">
+                        <label class="control-label sr-only">Input group with success</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Zapisz się do Newslettera">
+                            <span class="input-group-addon"><img src="images/newsletter_ico.png" alt=""></span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="" class="social-button"><i class="fa fa-facebook"></i></a>
+                    <a href="" class="social-button"><i class="fa fa-instagram"></i></a>
+                    <a href="" class="social-button"><i class="fa fa-youtube"></i></a>
+                    <a href="" class="social-button"><i class="fa fa-twitter"></i></a>
+                    <a href="" class="social-button"><i class="fa fa-pinterest-p"></i></a>
+                </li>
+
+                <li class="text-right">
+                    <i class="fa fa-copyright"></i> 2016 Energetyczne Centrum Nauki
+                </li>
+
+            </ul>
+
+            <ul class="visible-xs-block visible-sm-block">
+                <li>
+                    <div class="form-group has-feedback">
+                        <label class="control-label sr-only">Input group with success</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Zapisz się do Newslettera">
+                            <span class="input-group-addon"><img src="images/newsletter_ico.png" alt=""></span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="" class="social-button"><i class="fa fa-facebook"></i></a>
+                    <a href="" class="social-button"><i class="fa fa-instagram"></i></a>
+                    <a href="" class="social-button"><i class="fa fa-youtube"></i></a>
+                    <a href="" class="social-button"><i class="fa fa-twitter"></i></a>
+                    <a href="" class="social-button"><i class="fa fa-pinterest-p"></i></a>
+                </li>
+
+                <li class="text-right">
+                    <i class="fa fa-copyright"></i> 2016 Energetyczne Centrum Nauki
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="middle col-sm-10 col-sm-offset-1 col-xs-12">
+            <div class="col-md-2 col-xs-6">
+                <h4>Zaplanuj wizytę</h4>
+                <ul>
+                    <li><a href="">Godziny otwarcia</a></li>
+                    <li><a href="">Ceny biletów</a></li>
+                    <li><a href="">Co nowego</a></li>
+                    <li><a href="">Regulamin zwiedzania</a></li>
+                    <li><a href="">Dla nauczycieli</a></li>
+                    <li><a href="">Urodziny w ECN</a></li>
+                    <li><a href="">Jak trafić</a></li>
+                    <li><a href="">Sklepik naukowy</a></li>
+                    <li><a href="">Dla osób niepełnosprawnych</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-xs-6">
+                <h4>Odkrywaj</h4>
+                <ul>
+                    <li><a href="">Wystawa</a></li>
+                    <li><a href="">Laboratorium</a></li>
+                    <li><a href="">Kino</a></li>
+                    <li><a href="">Ogród</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-xs-6">
+                <h4>Aktualności</h4>
+                <ul>
+                    <li><a href="">Wydarzenia</a></li>
+                    <li><a href="">Pokazy</a></li>
+                    <li><a href="">Warsztaty</a></li>
+                    <li><a href="">Eventy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-xs-6">
+                <h4>Oferta</h4>
+                <ul>
+                    <li><a href="">Osoby indywidualne</a></li>
+                    <li><a href="">Grupy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-xs-6">
+                <h4>ECN to my</h4>
+                <ul>
+                    <li><a href="">O nas</a></li>
+                    <li><a href="">Ludzie centrum</a></li>
+                    <li><a href="">Przestrzeń</a></li>
+                    <li><a href="">Współpraca</a></li>
+                    <li><a href="">SPIN</a></li>
+                    <li><a href="">Partnerzy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-xs-6">
+                <h4>kontakt</h4>
+                <ul>
+                    <li><a href="">Dane kontaktowe</a></li>
+                    <li><a href="">Dojazd do ECN</a></li>
+                    <li><a href="">Jak trafić</a></li>
+                    <li><a href="">Parking</a></li>
+                    <li><a href="">Napisz do nas</a></li>
+                    <li><a href="">Dla mediów</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="bottom col-xs-12">
+            <ul>
+                <li class="col-xs-12 col-md-3"><img src="images/rpw.png" alt=""></li>
+                <li class="col-xs-12 col-md-6"><img src="images/fundusze.png" alt=""></li>
+                <li class="col-xs-12 col-md-3"><img src="images/efrr.png" alt=""></li>
+            </ul>
+        </div>
+    </footer>
+</div>
+
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/vendor/carousel.js"></script>
+
+</body>
+</html>

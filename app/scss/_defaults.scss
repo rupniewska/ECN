@@ -1,0 +1,51 @@
+@import "variables";
+
+html{
+  overflow-x: hidden;
+}
+
+h4{
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+h3{
+  color: $red;
+}
+
+a{
+  color: $defaul-text;
+}
+
+.btn{
+  border-radius: 0;
+  color: #fff !important;
+
+  &.btn-default{
+    background: $red;
+    border-color: $red;
+  }
+
+  &.btn-primary{
+    background: $blue;
+    border-color: $blue;
+  }
+
+  span{
+    border-left: solid 1px #fff;
+    height: 100%;
+    padding: 6px 0 6px 12px;
+    margin-left: 6px;
+  }
+
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.asterix{
+  color: $red;
+  padding: 0.5em;
+}
